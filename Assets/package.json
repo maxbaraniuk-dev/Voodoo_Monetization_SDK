@@ -1,0 +1,22 @@
+{
+  "name": "com.voodoo.sdk",
+  "displayName": "Voodoo SDK",
+  "version": "1.0.0",
+  "unity": "2021.3",
+  "unityRelease": "0f1",
+  "description": "Voodoo SDK",
+  "keywords": [
+    "utility",
+    "tools"
+  ],
+  "category": "Tools",
+  "dependencies": {
+    "com.unity.textmeshpro": "4.0.0"
+  },
+  "author": {
+    "name": "Max Baraniuk",
+    "email": "maxbaranuk@gmail.com",
+    "url": "https://github.com/maxbaraniuk-dev"
+  },
+  "license": "MIT"
+}
