@@ -1,0 +1,16 @@
+{
+    "name": "SDK.External",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c42fa85fd7c7a4720accaaec710701dc"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

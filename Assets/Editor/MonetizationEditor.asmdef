@@ -1,0 +1,21 @@
+{
+    "name": "MonetizationEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:df7a7881ab1bb4add89d42240b85b1cf",
+        "GUID:f98ce7933832c4652a89e80e05d96215",
+        "GUID:1a76f6768754c4fbb8a8e0cfa4513c4f",
+        "GUID:4b286fe8633814d6aad9fffba84872d6"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

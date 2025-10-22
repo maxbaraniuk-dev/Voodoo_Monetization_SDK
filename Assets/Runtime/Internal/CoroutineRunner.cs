@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace Runtime.Core
+namespace Voodoo.Internal.Core
 {
     class CoroutineRunner : MonoBehaviour
     {

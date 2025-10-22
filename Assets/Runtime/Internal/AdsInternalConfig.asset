@@ -10,7 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 46d5dcf4b4f05444bad39132b320d47a, type: 3}
-  m_Name: AdsConfig
+  m_Name: AdsInternalConfig
   m_EditorClassIdentifier: Monetization::AdsConfig
   adsUrl: https://bieistxl2gegrmotjm776b2uly0ykvly.lambda-url.us-east-1.on.aws
   initializationUrl: https://th7bmd6lomsrpelxp3p7k4u34a0smwap.lambda-url.us-east-1.on.aws
+  playerPrefab: {fileID: 739996323987019921, guid: 2e6ceb97a28d049d79719d8437afcf36, type: 3}

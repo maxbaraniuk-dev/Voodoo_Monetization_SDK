@@ -1,8 +1,8 @@
-using Runtime.Platform.Editor;
+using Voodoo.Internal.Core;
 
-namespace Runtime.Monetization
+namespace Internal
 {
-    static class SDKProvider
+    public static class SDKProvider
     {
         public static IMonetizationSDK Create()
         {

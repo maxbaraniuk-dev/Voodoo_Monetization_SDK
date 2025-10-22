@@ -1,11 +1,11 @@
 using System;
 using System.Threading.Tasks;
-using Runtime.Core;
-using Runtime.Monetization;
+using Runtime.Internal;
+using Voodoo.Internal.Core;
 
-namespace Runtime.Platform.Android
+namespace Voodoo.Platform
 {
-    sealed class AndroidMonetizationSDK : IMonetizationSDK
+    sealed class IosMonetizationSDK : IMonetizationSDK
     {
         public void Initialize(string appId, string userId, Action onCompleted, Action onFailed)
         {
@@ -37,7 +37,12 @@ namespace Runtime.Platform.Android
             throw new NotImplementedException();
         }
 
-        public void ShowRewardedAds(Action onCompleted, Action onFailed, Action onRewarded)
+        public void ShowRewardedAds(Action onRewarded, Action onFailed, Action onSkipped)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Dispose()
         {
             throw new NotImplementedException();
         }

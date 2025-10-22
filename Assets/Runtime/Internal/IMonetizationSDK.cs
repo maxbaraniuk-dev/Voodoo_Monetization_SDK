@@ -1,10 +1,10 @@
 using System;
 using System.Threading.Tasks;
-using Runtime.Core;
+using Runtime.Internal;
 
-namespace Runtime.Monetization
+namespace Voodoo.Internal.Core
 {
-    interface IMonetizationSDK
+    public interface IMonetizationSDK
     {
         void Initialize(string appId, string userId, Action onCompleted, Action onFailed);
         Task<Result> InitializeAsync(string appId, string userId);
@@ -12,6 +12,7 @@ namespace Runtime.Monetization
         void LoadAds(Action onCompleted, Action onFailed);
         Task<Result> LoadAdsAsync();
         bool IsAdsReady();
-        void ShowRewardedAds(Action onCompleted, Action onFailed, Action onRewarded);
+        void ShowRewardedAds(Action onRewarded, Action onFailed, Action onSkipped);
+        void Dispose();
     }
 }
