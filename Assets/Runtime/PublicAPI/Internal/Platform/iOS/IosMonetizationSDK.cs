@@ -1,6 +1,8 @@
 using System;
 using System.Threading.Tasks;
-using Runtime.Core;
+using Runtime.PublicAPI;
+using Runtime.PublicAPI.Core;
+using Runtime.PublicAPI.Internal;
 
 namespace Runtime.Internal.Platform.iOS
 {

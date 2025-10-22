@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Runtime.Internal
+namespace Runtime.PublicAPI.Internal
 {
     [CreateAssetMenu(fileName = "AdsConfig", menuName = "Scriptable Objects/AdsConfig")]
     internal class AdsConfig : ScriptableObject

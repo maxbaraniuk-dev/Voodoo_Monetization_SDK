@@ -1,6 +1,6 @@
 using System;
 
-namespace Runtime.Internal
+namespace Runtime.PublicAPI.Internal
 {
     [Serializable]
     internal struct InitData

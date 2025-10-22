@@ -1,9 +1,10 @@
 using System;
 using System.Threading.Tasks;
-using Runtime.Core;
-using Runtime.Internal;
+using PublicAPI.Internal;
+using Runtime.PublicAPI;
+using Runtime.PublicAPI.Core;
+using Runtime.PublicAPI.Internal;
 using UnityEngine;
-using Result = Runtime.Core.Result;
 
 namespace Voodoo
 {
@@ -65,7 +66,7 @@ namespace Voodoo
         /// </summary>
         /// <param name="appId">The monetization application identifier supplied by the provider.</param>
         /// <param name="userId">A unique identifier for the current user/session.</param>
-        /// <returns>A <see cref="Runtime.Core.Result"/> indicating success or failure.</returns>
+        /// <returns>A <see cref="Result"/> indicating success or failure.</returns>
         public static async Task<Result> InitializeAsync(string appId, string userId)
         {
             _sdk = SDKProvider.Create();

@@ -1,9 +1,7 @@
 {
     "name": "SDK.External",
     "rootNamespace": "",
-    "references": [
-        "GUID:c42fa85fd7c7a4720accaaec710701dc"
-    ],
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

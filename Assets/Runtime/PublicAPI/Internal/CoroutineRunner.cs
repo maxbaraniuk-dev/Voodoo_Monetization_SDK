@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace Runtime.Internal
+namespace Runtime.PublicAPI.Internal
 {
     class CoroutineRunner : MonoBehaviour
     {

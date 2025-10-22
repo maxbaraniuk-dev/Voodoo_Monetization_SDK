@@ -1,6 +1,7 @@
 using Runtime.Internal.Platform.Editor;
+using Runtime.PublicAPI.Internal;
 
-namespace Runtime.Internal
+namespace PublicAPI.Internal
 {
     internal static class SDKProvider
     {

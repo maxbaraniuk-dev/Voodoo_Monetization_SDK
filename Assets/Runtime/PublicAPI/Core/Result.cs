@@ -1,4 +1,4 @@
-namespace Runtime.Core
+namespace Runtime.PublicAPI.Core
 {
     public class Result
     {

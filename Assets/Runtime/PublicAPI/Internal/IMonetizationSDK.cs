@@ -1,8 +1,8 @@
 using System;
 using System.Threading.Tasks;
-using Runtime.Core;
+using Runtime.PublicAPI.Core;
 
-namespace Runtime.Internal
+namespace Runtime.PublicAPI.Internal
 {
     internal interface IMonetizationSDK
     {

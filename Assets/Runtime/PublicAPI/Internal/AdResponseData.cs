@@ -1,4 +1,4 @@
-namespace Runtime.Internal
+namespace Runtime.PublicAPI.Internal
 {
     internal struct AdResponseData
     {
