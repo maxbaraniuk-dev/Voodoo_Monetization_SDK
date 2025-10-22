@@ -1,4 +1,4 @@
-namespace Voodoo.Internal.Core
+namespace Runtime.Internal
 {
     internal struct AdResponseData
     {

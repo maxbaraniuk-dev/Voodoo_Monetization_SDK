@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
-namespace Runtime.Core
+namespace Runtime.Internal
 {
     public class AdsPlayer : MonoBehaviour
     {

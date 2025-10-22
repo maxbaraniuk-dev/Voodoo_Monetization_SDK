@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Runtime.Core
+namespace Runtime.Internal
 {
     public class CloseButtonDrawer : MonoBehaviour
     {

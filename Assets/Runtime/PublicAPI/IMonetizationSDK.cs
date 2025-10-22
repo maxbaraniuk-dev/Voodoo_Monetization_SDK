@@ -1,10 +1,10 @@
 using System;
 using System.Threading.Tasks;
-using Runtime.Internal;
+using Runtime.Core;
 
-namespace Voodoo.Internal.Core
+namespace Runtime.Internal
 {
-    public interface IMonetizationSDK
+    internal interface IMonetizationSDK
     {
         void Initialize(string appId, string userId, Action onCompleted, Action onFailed);
         Task<Result> InitializeAsync(string appId, string userId);

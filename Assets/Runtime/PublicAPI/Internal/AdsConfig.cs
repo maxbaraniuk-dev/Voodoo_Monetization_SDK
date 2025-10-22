@@ -1,7 +1,6 @@
-using Runtime.Core;
 using UnityEngine;
 
-namespace Voodoo.Internal.Core
+namespace Runtime.Internal
 {
     [CreateAssetMenu(fileName = "AdsConfig", menuName = "Scriptable Objects/AdsConfig")]
     internal class AdsConfig : ScriptableObject

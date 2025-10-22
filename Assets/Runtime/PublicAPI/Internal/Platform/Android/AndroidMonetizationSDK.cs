@@ -1,11 +1,10 @@
 using System;
 using System.Threading.Tasks;
-using Runtime.Internal;
-using Voodoo.Internal.Core;
+using Runtime.Core;
 
-namespace Voodoo.Platform
+namespace Runtime.Internal.Platform.Android
 {
-    sealed class IosMonetizationSDK : IMonetizationSDK
+    sealed class AndroidMonetizationSDK : IMonetizationSDK
     {
         public void Initialize(string appId, string userId, Action onCompleted, Action onFailed)
         {

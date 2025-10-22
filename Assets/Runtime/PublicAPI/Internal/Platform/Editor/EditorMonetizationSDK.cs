@@ -3,13 +3,12 @@ using System.Collections;
 using System.Net;
 using System.Threading.Tasks;
 using Runtime.Core;
-using Runtime.Internal;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Networking;
 using Object = UnityEngine.Object;
 
-namespace Voodoo.Internal.Core
+namespace Runtime.Internal.Platform.Editor
 {
     /// <summary>
     /// Editor implementation of the monetization SDK used while running inside the Unity Editor.

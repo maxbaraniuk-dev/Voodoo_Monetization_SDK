@@ -1,6 +1,6 @@
 using System;
 
-namespace Voodoo.Internal.Core
+namespace Runtime.Internal
 {
     [Serializable]
     internal struct InitData
